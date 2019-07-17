@@ -2,6 +2,13 @@
 
 #include "fizzbuzz.h"
 
+void setUp ( void )
+{
+}
+
+void tearDown ( void )
+{
+}
 
 void test_foo ( void )
 {

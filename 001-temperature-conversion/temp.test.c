@@ -14,11 +14,7 @@ void test_foo ( void )
 {
 }
 
-int main ( void )
+void test_bar ( void )
 {
-    UNITY_BEGIN ();
-
-    RUN_TEST ( test_foo );
-
-    return UNITY_END ();
 }
+

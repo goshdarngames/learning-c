@@ -10,11 +10,8 @@ void tearDown ( void )
 {
 }
 
-void test_foo ( void )
+void test_convert_F_to_C ( void )
 {
-}
-
-void test_bar ( void )
-{
+    TEST_ASSERT ( convert_F_to_C ( 0 ) == -17 );
 }
 
